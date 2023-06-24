@@ -35,6 +35,8 @@ module.exports = {
         '8xl': '96rem',
         '9xl': '128rem',
         '18': '18rem',
+        '362': '22.625rem',
+        '290':'18.125rem',
       },
       borderRadius: {
         '4xl': '2rem',

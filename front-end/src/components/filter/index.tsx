@@ -1,6 +1,6 @@
-import { Container } from './styles'
 import Button from '../button'
-import { Select, Label } from './styles'
+import { Select, Label, Container } from './styles'
+
 const Filter = () => {
   return (
     <Container>
@@ -15,8 +15,8 @@ const Filter = () => {
         <h3></h3>
         <Label htmlFor="data">Ordenar por</Label>
         <Select id="data">
-          <option selected disabled hidden>
-            Data de publicação
+          <option selected value={"Data de publicação"} disabled hidden>
+          Data de publicação
           </option>
           <option value="volvo">Volvo</option>
           <option value="saab">Saab</option>
