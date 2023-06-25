@@ -21,11 +21,9 @@ app.get('/videos', (req : Request, res: Response)  => {
         })
     }
 
-    console.log(page,limite)
     const resp = videos.slice(Number(page)*limite, Number(page)*limite + 9)
     
-
     res.json(resp);
 });
 
-app.listen(3333, ()=> console.log("server is runnning => port3333"))
+app.listen(3333, () => console.log("server is runnning => port3333"))

@@ -35,6 +35,15 @@ module.exports = {
         '8xl': '96rem',
         '9xl': '128rem',
         '18': '18rem',
+        '362': '22.625rem',
+        '290':'18.125rem',
+        '198':'12.375rem',
+      },
+      boxShadow:{
+        'shadow-primary': 'rgba(0, 0, 0, 0.08) 0px 12px 28px 0px, rgba(0, 0, 0, 0.08) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset'
+      },
+      boxShadowColor:{
+
       },
       borderRadius: {
         '4xl': '2rem',
