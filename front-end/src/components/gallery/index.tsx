@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import Card from "../card";
+import Card from "../Card";
 const Gallery = () => {
   return (
     <Container>

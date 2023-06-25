@@ -1,4 +1,4 @@
-import Button from '../button'
+import Button from '../Button'
 import { Select, Label, Container } from './styles'
 
 const Filter = () => {
