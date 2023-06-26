@@ -1,60 +1,23 @@
 import { Container, Thumb } from './styles'
+import { Data } from '../../interfaces/api.interfaces'
+import { useEffect, useState } from 'react'
 
-const Card = () => {
+const Card = ({ url, title }: Data) => {
+  const [thumbImage, setThumbImage] = useState<string | undefined>()
+  useEffect(() => {
+    const valid = url.toString().split('watch?v=')[1].substring(0, 11)
+    const imageThumb = `https://img.youtube.com/vi/${valid}/hqdefault.jpg`
+    setThumbImage(imageThumb)
+  }, [])
+
   return (
     <Container>
       <Thumb>
-        <svg
-          width="139"
-          height="148"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g filter="url(#a)">
-            <path
-              d="M39 45.356v53.758c.776 8.238 4.658 11.328 11.646 9.268L94.9 81.194c6.6-5.767 6.794-10.504.583-14.212L49.48 39.176c-5.046-.823-8.54 1.236-10.481 6.18z"
-              fill="#fff"
-            />
-            <path
-              d="M39 45.356v53.758c.776 8.238 4.658 11.328 11.646 9.268L94.9 81.194c6.6-5.767 6.794-10.504.583-14.212L49.48 39.176c-5.046-.823-8.54 1.236-10.481 6.18z"
-            />
-          </g>
-          <defs>
-            <filter
-              id="a"
-              x="0"
-              y="0"
-              width="139"
-              height="148"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feColorMatrix
-                in="SourceAlpha"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                result="hardAlpha"
-              />
-              <feOffset />
-              <feGaussianBlur stdDeviation="19.5" />
-              <feComposite in2="hardAlpha" operator="out" />
-              <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-              <feBlend
-                in2="BackgroundImageFix"
-                result="effect1_dropShadow_71_16"
-              />
-              <feBlend
-                in="SourceGraphic"
-                in2="effect1_dropShadow_71_16"
-                result="shape"
-              />
-            </filter>
-          </defs>
-        </svg>
-        <div></div>
-        <img src="/images/thumbnail.png"></img>
+        <img className="play" src="/images/play.svg" alt="" />
+        <div />
+        <img className="thumb-image" src={thumbImage}></img>
       </Thumb>
-      <p>Como aumentar sua Geração de Leads feat.Traktor</p>
+      <p>{title}</p>
     </Container>
   )
 }

@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      'white': '#FFFFFF',
       'blue-primary': '#007EFF',
       'blue-secondary': '#F0F8FF',
       'blue-tertiary' : '#1C3C50',
@@ -19,6 +20,7 @@ module.exports = {
     extend: {
       
       backgroundColor: {
+       
         'blue-primary': '#007EFF',
         'blue-secondary': '#F0F8FF',
         'transparent': 'transparent'
@@ -38,6 +40,8 @@ module.exports = {
         '362': '22.625rem',
         '290':'18.125rem',
         '198':'12.375rem',
+        '1050':'65rem',
+        '720':'45rem'
       },
       boxShadow:{
         'shadow-primary': 'rgba(0, 0, 0, 0.08) 0px 12px 28px 0px, rgba(0, 0, 0, 0.08) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset'
