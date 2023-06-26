@@ -1,6 +1,6 @@
 import { Container } from './styles'
 import Button from '../Button'
-import Image from 'next/image'
+
 const Banner = () => {
   return (
     <Container>

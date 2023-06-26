@@ -21,5 +21,5 @@ export const videos = [
     { id: 20, url: 'https://www.youtube.com/watch?v=XIBdJjahUkM', title: 'Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster' , tag: 'Chatbot' },
     { id: 21, url: 'https://www.youtube.com/watch?v=XIBdJjahUkM', title: 'Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster' , tag: 'Chatbot' },
     { id: 22, url: 'https://www.youtube.com/watch?v=XIBdJjahUkM', title: 'Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster' , tag: 'Chatbot' },
-    { id: 23, url: 'https://www.youtube.com/watch?v=XIBdJjahUkM', title: 'Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster' , tag: 'Chatbot' },
+    { id: 23, url: 'https://www.youtube.com/watch?v=avUCPbWppgQ&t=933s', title: 'Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster' , tag: 'Chatbot' },
   ];
