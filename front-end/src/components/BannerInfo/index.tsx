@@ -12,7 +12,7 @@ const BannerInfo = () => {
       const divTop = banner.current!.getBoundingClientRect().top
       const windowHeight = window.innerHeight
 
-      if (divTop < windowHeight - delay) {
+      if (divTop < windowHeight) {
         setAnimate(true)
         animated()
       } else {
@@ -212,13 +212,6 @@ const BannerInfo = () => {
       {isAnimate && (
         <>
           <SvgComponent />
-          <img
-            data-aos="fade-right"
-            data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
-            src="/images/relevo.svg"
-          />
           <BannerInfoSecondary />
         </>
       )}

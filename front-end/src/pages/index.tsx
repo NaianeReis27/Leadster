@@ -9,21 +9,26 @@ import { useEffect, useRef, useState } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Footer from '@/components/Footer'
+import Modal from '@/components/Modal'
 
 const index = () => {
-  useEffect(()=> {
+
+  useEffect(() => {
     Aos.init()
   }, [])
+
+
   return (
-    <ContainerPage >
+    <ContainerPage>
+      <Modal/>
       <Header />
       <Banner />
       <Filter />
       <Gallery />
       <Pagination />
-      <BannerInfo  />
-      <Footer/>
-    </ContainerPage >
+      <BannerInfo />
+      <Footer />
+    </ContainerPage>
   )
 }
 

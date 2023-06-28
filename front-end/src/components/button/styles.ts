@@ -2,9 +2,10 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const Container = styled.button<{ types: string; isClicked: boolean }>`
+  ${ tw`rounded-[8px] `}
   ${({ types }) =>
     types == 'primary' &&
-    tw`bg-transparent border-2 cursor-default border-solid text-sm border-blue-primary text-blue-primary px-2 py-3 rounded-sm `}
+    tw`bg-transparent border-[2px] cursor-default border-solid text-sm border-blue-primary text-blue-primary px-4 py-3 rounded-sm `}
 
   ${({ types }) =>
     types == 'secondary' &&

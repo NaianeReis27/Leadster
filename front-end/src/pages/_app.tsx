@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app'
 import localFont from 'next/font/local'
 import { ApiProvider } from '../context/ApiContext'
+import { UtilsProvider } from '@/context/utilsContext'
 import { GlobalStyle } from '@/styles/GlobalStyles'
 const plusJakartSans = localFont({
   src: [
@@ -40,12 +41,14 @@ const plusJakartSans = localFont({
 function Home({ Component, pageProps }: AppProps) {
   return (
     <>
-      <ApiProvider>
-        <GlobalStyle/>
-        <main className={plusJakartSans.className}>
-          <Component {...pageProps} />
-        </main>
-      </ApiProvider>
+      <UtilsProvider>
+        <ApiProvider>
+          <GlobalStyle />
+          <main className={plusJakartSans.className}>
+            <Component {...pageProps} />
+          </main>
+        </ApiProvider>
+      </UtilsProvider>
     </>
   )
 }
