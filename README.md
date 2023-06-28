@@ -6,7 +6,8 @@ Optei por utilizar o styled-components para criar componentes estilizados de for
 
 Criei um banco de dados simples utilizando express com a listagem dos videos no youtube do canal da Leadster e hospedei a api no vercel. Refiz o gráfico e animei utilizando um editor de SVG para atender aos requisitos de animações. Além disso, adicionei a biblioteca Aos para animar os containers com base no evento de rolagem.
 
-![gif](https://github.com/NaianeReis27/leadster/assets/100942719/04c89725-ac3f-4bd8-8d04-b3a3b9e21b01)
+
+https://github.com/NaianeReis27/leadster/assets/100942719/274f8b31-0a29-4405-85fe-945eb45a9ca2
 
 
 
