@@ -4,7 +4,10 @@ Este repositório contém o código fonte da aplicação front-end desenvolvida 
 
 Optei por utilizar o styled-components para criar componentes estilizados de forma modular e reutilizável. Além disso, o conhecimento de Tailwind CSS era um requisito importante mencionado na descrição da vaga. Utilizei o Tailwind CSS em conjunto com o styled-components para agilizar a estilização da aplicação.
 
-Criei um banco de dados simples utilizando express com a listagem dos videos no youtube do canal da Leadster e hospedei a api no vercel.
+Criei um banco de dados simples utilizando express com a listagem dos videos no youtube do canal da Leadster e hospedei a api no vercel. Refiz o gráfico e animei utilizando um editor de SVG para atender aos requisitos de animações. Além disso, adicionei a biblioteca Aos para animar os containers com base no evento de rolagem.
+
+![gif](https://github.com/NaianeReis27/leadster/assets/100942719/04c89725-ac3f-4bd8-8d04-b3a3b9e21b01)
+
 
 
 https://github.com/NaianeReis27/leadster/assets/100942719/5e274ca9-a948-4292-b840-4c1e34e6369f
