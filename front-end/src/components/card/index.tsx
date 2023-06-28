@@ -3,20 +3,18 @@ import { Data } from '../../interfaces/api.interfaces'
 import { useContext, useEffect, useState } from 'react'
 import { UtilsContext } from '@/context/utilsContext'
 const Card = (data: Data) => {
-  const { setSelectedVideos, setOpen} = useContext(UtilsContext)
+  const { setSelectedVideos, setOpen, thumb } = useContext(UtilsContext)
+  
   const [thumbImage, setThumbImage] = useState<string | undefined>()
 
-  useEffect(() => {
-    const valid = data.url.toString().split('watch?v=')[1].substring(0, 11)
-    const imageThumb = `https://img.youtube.com/vi/${valid}/hqdefault.jpg`
-    setThumbImage(imageThumb)
-  }, [])
-
-  const showVideo = () =>{
+  const showVideo = () => {
     setSelectedVideos(data)
     setOpen(true)
   }
-  
+useEffect(()=>{
+  thumb(data.url, setThumbImage)
+},[])
+
   return (
     <Container onClick={showVideo}>
       <Thumb>
