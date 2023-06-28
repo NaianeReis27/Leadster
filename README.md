@@ -6,7 +6,11 @@ Optei por utilizar o styled-components para criar componentes estilizados de for
 
 Criei um banco de dados simples utilizando express com a listagem dos videos no youtube do canal da Leadster e hospedei a api no vercel.
 
-Veja a minha api no vercel  [aqui]([https://exemplo.com](https://back-end-naianereis.vercel.app)).
+
+https://github.com/NaianeReis27/leadster/assets/100942719/5e274ca9-a948-4292-b840-4c1e34e6369f
+
+
+[Veja a minha api no vercel]([https://exemplo.com](https://back-end-naianereis.vercel.app)).
 
 ## Tecnologias
 
@@ -19,7 +23,7 @@ Veja a minha api no vercel  [aqui]([https://exemplo.com](https://back-end-naiane
 
 Para rodar o projeto localmente, siga as instruções abaixo:
 
-1. Clone o repositório executando o seguinte comando no terminal:
+1. Clone o repositório executando o seguinte comando no terminal
 
    ```bash
    git clone https://github.com/NaianeReis27/leadster.git
