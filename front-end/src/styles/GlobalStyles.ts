@@ -22,13 +22,18 @@ time, mark, audio, video {
 	border: 0;
 }
 
-ol, ul {
+ol, ul{
 	list-style: none;
 }
-
+a, u {
+    text-decoration: none;
+}
+button{
+	cursor: pointer;
+}
 
 `
 
 export const ContainerPage = styled.main`
-  /* ${tw`border-2 max-w-8xl m-0 w-full mx-auto `} */
+  ${tw`border-2 max-w-8xl m-0 w-full mx-auto `}
 `

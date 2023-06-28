@@ -30,7 +30,7 @@ export const Container = styled.div`
       figure {
         ${tw`w-[20px] h-[20px]`}
         img {
-          ${tw`h-inherit w-inherit p-0`}
+          ${tw`h-inherit w-inherit p-0 block`}
         }
       }
 
