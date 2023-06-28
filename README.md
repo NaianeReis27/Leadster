@@ -1,33 +1,46 @@
-# Projeto final - MJV School Angular.
+# Teste Técnico - Leadster
 
-Este é o projeto final desenvolvido para o curso da MJV School Angular, com o objetivo de praticar e aplicar os conceitos aprendidos utilizando o framework Angular.
+Este repositório contém o código fonte da aplicação front-end desenvolvida como parte do teste técnico fornecido pela empresa Leadster. A aplicação foi construída utilizando Next.js e as tecnologias fundamentais para o teste: styled-components e Tailwind CSS.
+
+Optei por utilizar o styled-components para criar componentes estilizados de forma modular e reutilizável. Além disso, o conhecimento de Tailwind CSS era um requisito importante mencionado na descrição da vaga. Utilizei o Tailwind CSS em conjunto com o styled-components para agilizar a estilização da aplicação.
+
+Criei um banco de dados simples utilizando express com a listagem dos videos no youtube do canal da Leadster e hospedei a api no vercel. Refiz o gráfico e animei utilizando um editor de SVG para atender aos requisitos de animações. Além disso, adicionei a biblioteca Aos para animar os containers com base no evento de rolagem.
 
 
-![image](https://user-images.githubusercontent.com/100942719/234717842-0f958fe6-1125-470c-8d60-7bb7ce000426.png)
+https://github.com/NaianeReis27/leadster/assets/100942719/274f8b31-0a29-4405-85fe-945eb45a9ca2
 
-![image](https://user-images.githubusercontent.com/100942719/234717986-0e8da837-dee2-4503-9fa7-438b00913227.png)
 
-![image](https://user-images.githubusercontent.com/100942719/234718035-3e5bd47f-ee37-4bb3-ba66-53a62d90e3c9.png)
+https://github.com/NaianeReis27/leadster/assets/100942719/5e274ca9-a948-4292-b840-4c1e34e6369f
 
+
+[Veja a minha api no vercel]([https://exemplo.com](https://back-end-naianereis.vercel.app)).
+
+## Tecnologias
+
+⚛️ Next.js
+🌈 Tailwind CSS
+💅 Styled Components
+🚀 Express
 
 ## Instruções
 
-1. Clone o repositório:
-   
-### `git clone https://github.com/NaianeReis27/leadster.git` 
+Para rodar o projeto localmente, siga as instruções abaixo:
 
-1. Para rodar o app é necessário entrar no diretório front-angular .
- 
-### `cd front-end`
-2. Em seguida instalar todas as dependências utilizadas no projeto.
-   
-### `npm install`
+1. Clone o repositório executando o seguinte comando no terminal
 
-3. Para rodar a aplicação use o seguinte comando.
+   git clone https://github.com/NaianeReis27/leadster.git
 
-### `npm run dev`
+2. Acesse o diretório do front-end:
 
+   cd front-end
 
+3. Instale todas as dependências do projeto:
+
+   npm install
+
+4. Inicie a aplicação localmente:
+
+   npm run dev
 
 ## Autora
 - [Naiane Reis](https://github.com/NaianeReis27)
