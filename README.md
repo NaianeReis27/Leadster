@@ -29,17 +29,18 @@ Para rodar o projeto localmente, siga as instruções abaixo:
 
 1. Clone o repositório executando o seguinte comando no terminal
 
-   ```bash
+```bash
    git clone https://github.com/NaianeReis27/leadster.git
 
 2. Acesse o diretório do front-end:
 
-  ```bash
+```bash
    cd front-end
 
 3. Instale todas as dependências do projeto:
 
- ```bash
+
+```bash
    npm install
 
 4. Inicie a aplicação localmente:
