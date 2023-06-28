@@ -10,7 +10,6 @@ Criei um banco de dados simples utilizando express com a listagem dos videos no 
 https://github.com/NaianeReis27/leadster/assets/100942719/274f8b31-0a29-4405-85fe-945eb45a9ca2
 
 
-
 https://github.com/NaianeReis27/leadster/assets/100942719/5e274ca9-a948-4292-b840-4c1e34e6369f
 
 
@@ -29,23 +28,18 @@ Para rodar o projeto localmente, siga as instruções abaixo:
 
 1. Clone o repositório executando o seguinte comando no terminal
 
-   ```bash
    git clone https://github.com/NaianeReis27/leadster.git
 
 2. Acesse o diretório do front-end:
 
-   ```bash
    cd front-end
 
 3. Instale todas as dependências do projeto:
 
-
-   ```bash
    npm install
 
 4. Inicie a aplicação localmente:
 
-```bash
    npm run dev
 
 ## Autora
