@@ -1,9 +1,8 @@
 import { Container } from './styles'
 import Image from 'next/image'
 import Link from 'next/link'
-import { TiSocialLinkedin } from 'react-icons/ti';
-import {BiLogoFacebook, BiLogoInstagramAlt} from 'react-icons/bi'
-
+import { TiSocialLinkedin } from 'react-icons/ti'
+import { BiLogoFacebook, BiLogoInstagramAlt } from 'react-icons/bi'
 
 const Footer = () => {
   return (
@@ -76,14 +75,19 @@ const Footer = () => {
           <h3>Siga a Leadster</h3>
           <div className="footer-social">
             <div>
-              <Link href={'#'}><TiSocialLinkedin fill='#737679' size={25}/></Link>
-              
+              <Link href={'#'}>
+                <TiSocialLinkedin fill="#737679" size={25} />
+              </Link>
             </div>
             <div>
-            <Link href={'#'}><BiLogoFacebook fill='#737679' size={25}/></Link>
+              <Link href={'#'}>
+                <BiLogoFacebook fill="#737679" size={25} />
+              </Link>
             </div>
             <div>
-            <Link href={'#'}><BiLogoInstagramAlt fill='#737679' size={25}/></Link>
+              <Link href={'#'}>
+                <BiLogoInstagramAlt fill="#737679" size={25} />
+              </Link>
             </div>
           </div>
           <ul>

@@ -2,11 +2,11 @@ import { Container } from './styles'
 import { Dispatch, SetStateAction } from 'react'
 interface PropsButton {
   text: string
-  types: 'primary' | 'secondary' |'tertiary'| 'quartenary'
+  types: 'primary' | 'secondary' | 'tertiary' | 'quartenary'
   index?: number
   setIsClicked?: Dispatch<SetStateAction<number | null>>
   isClicked?: null | number
-  action?: any;
+  action?: any
 }
 
 const Button = ({
@@ -17,6 +17,7 @@ const Button = ({
   setIsClicked,
   isClicked,
 }: PropsButton) => {
+  
   const clicked = () => {
     if (setIsClicked) {
       if (isClicked == index) {
@@ -31,7 +32,7 @@ const Button = ({
       action()
     }
   }
-  
+
   return (
     <Container
       onClick={clicked}

@@ -9,12 +9,16 @@ import {
 
 import { Data } from '../interfaces/api.interfaces'
 export interface UtilsContextData {
-  embed: (url: string) => void
+  embed: () => void
+  thumb: (
+    url: string,
+    setThumb: Dispatch<SetStateAction<string | undefined>>
+  ) => void
   setSelectedVideos: Dispatch<SetStateAction<Data | null>>
   urlEmbeded: string | undefined
   isOpen: boolean
-  setOpen:Dispatch<SetStateAction<boolean>>
-  selectedVideos: Data| null
+  setOpen: Dispatch<SetStateAction<boolean>>
+  selectedVideos: Data | null
 }
 
 export interface UtilsContextProps {
@@ -30,14 +34,21 @@ export const UtilsProvider = ({ children }: UtilsContextProps) => {
   const [isOpen, setOpen] = useState(false)
   const [urlEmbeded, setUrlEmbeded] = useState<string>()
 
-
-  useEffect(()=>{
+  useEffect(() => {
     embed()
-    console.log("mudou")
-  })
+  }, [isOpen])
+
+  const thumb = (
+    url: string,
+    setThumb: Dispatch<SetStateAction<string | undefined>>,
+  ) => {
+    const valid = url.toString().split('watch?v=')[1].substring(0, 11)
+    const imageThumb = `https://img.youtube.com/vi/${valid}/hqdefault.jpg`
+    setThumb(imageThumb)
+  }
 
   const embed = () => {
-    if(selectedVideos){
+    if (selectedVideos) {
       const valid = selectedVideos.url.split('watch?v=')[1].substring(0, 11)
       const video = `https://www.youtube.com/embed/${valid}?version=3&enablejsapi=1`
       setUrlEmbeded(video)
@@ -47,6 +58,7 @@ export const UtilsProvider = ({ children }: UtilsContextProps) => {
   return (
     <UtilsContext.Provider
       value={{
+        thumb,
         embed,
         setSelectedVideos,
         urlEmbeded,

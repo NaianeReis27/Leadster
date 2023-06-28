@@ -12,8 +12,8 @@ const SvgComponent = () => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 1962 1672"
-      shape-rendering="geometricPrecision"
-      text-rendering="geometricPrecision"
+      shapeRendering="geometricPrecision"
+      textRendering="geometricPrecision"
     >
       <defs>
         <linearGradient
@@ -26,8 +26,8 @@ const SvgComponent = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(0 0)"
         >
-          <stop id="egew8y6YN5R14-fill-0" offset="0%" stop-color="#02dbff" />
-          <stop id="egew8y6YN5R14-fill-1" offset="100%" stop-color="#019dff" />
+          <stop id="egew8y6YN5R14-fill-0" offset="0%" stopColor="#02dbff" />
+          <stop id="egew8y6YN5R14-fill-1" offset="100%" stopColor="#019dff" />
         </linearGradient>
         <linearGradient
           id="egew8y6YN5R15-fill"
@@ -39,8 +39,8 @@ const SvgComponent = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(0 0)"
         >
-          <stop id="egew8y6YN5R15-fill-0" offset="0%" stop-color="#0195ff" />
-          <stop id="egew8y6YN5R15-fill-1" offset="100%" stop-color="#02dfff" />
+          <stop id="egew8y6YN5R15-fill-0" offset="0%" stopColor="#0195ff" />
+          <stop id="egew8y6YN5R15-fill-1" offset="100%" stopColor="#02dfff" />
         </linearGradient>
         <linearGradient
           id="egew8y6YN5R16-fill"
@@ -52,8 +52,8 @@ const SvgComponent = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(0 0)"
         >
-          <stop id="egew8y6YN5R16-fill-0" offset="0%" stop-color="#01e1ff" />
-          <stop id="egew8y6YN5R16-fill-1" offset="100%" stop-color="#0091ff" />
+          <stop id="egew8y6YN5R16-fill-0" offset="0%" stopColor="#01e1ff" />
+          <stop id="egew8y6YN5R16-fill-1" offset="100%" stopColor="#0091ff" />
         </linearGradient>
       </defs>
       <path
@@ -61,9 +61,9 @@ const SvgComponent = () => (
         d="M20.558,309.696h9.04v18.961h20.34v8.428h-20.34v18.61h-9.04v-18.61h-19.964v-8.428h19.964v-18.961Zm0,133.908h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962Zm9.04,267.817h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962Zm-9.04-133.908h9.04v18.961h20.34v8.428h-20.34v18.609h-9.04v-18.609h-19.964v-8.428h19.964v-18.961Zm9.04,401.725h-9.04v18.961h-19.964v8.431h19.964v18.61h9.04v-18.61h20.34v-8.431h-20.34v-18.961Zm-9.04-133.909h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962ZM124.63,309.696h9.04v18.961h20.341v8.428h-20.341v18.61h-9.04v-18.61h-19.963v-8.428h19.963v-18.961Zm0,133.908h9.04v18.962h20.341v8.427h-20.341v18.61h-9.04v-18.61h-19.963v-8.427h19.963v-18.962Zm9.04,267.817h-9.04v18.962h-19.963v8.427h19.963v18.61h9.04v-18.61h20.341v-8.427h-20.341v-18.962Zm-9.04-133.908h9.04v18.961h20.341v8.428h-20.341v18.609h-9.04v-18.609h-19.963v-8.428h19.963v-18.961Zm9.04,401.725h-9.04v18.961h-19.963v8.431h19.963v18.61h9.04v-18.61h20.341v-8.431h-20.341v-18.961Zm-9.04-133.909h9.04v18.962h20.341v8.427h-20.341v18.61h-9.04v-18.61h-19.963v-8.427h19.963v-18.962ZM237.744,309.696h-9.04v18.961h-19.964v8.428h19.964v18.61h9.04v-18.61h20.341v-8.428h-20.341v-18.961Zm0,133.908h-9.04v18.962h-19.963v8.427h19.963v18.61h9.04v-18.61h20.341v-8.427h-20.341v-18.962Zm-9.04,267.817h9.04v18.962h20.341v8.427h-20.341v18.61h-9.04v-18.61h-19.963v-8.427h19.963v-18.962Zm9.04-133.908h-9.04v18.961h-19.963v8.428h19.963v18.609h9.04v-18.609h20.341v-8.428h-20.341v-18.961Zm-9.04,401.725h9.04v18.961h20.341v8.431h-20.341v18.61h-9.04v-18.61h-19.963v-8.431h19.963v-18.961Zm9.04-133.909h-9.04v18.962h-19.963v8.427h19.963v18.61h9.04v-18.61h20.341v-8.427h-20.341v-18.962Zm95.034-535.633h9.04v18.961h20.34v8.428h-20.34v18.61h-9.04v-18.61h-19.964v-8.428h19.964v-18.961Zm0,133.908h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962Zm9.04,267.817h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962Zm-9.04-133.908h9.04v18.961h20.34v8.428h-20.34v18.609h-9.04v-18.609h-19.964v-8.428h19.964v-18.961Zm9.04,401.725h-9.04v18.961h-19.964v8.431h19.964v18.61h9.04v-18.61h20.34v-8.431h-20.34v-18.961Zm-9.04-133.909h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962ZM445.892,309.696h-9.04v18.961h-19.964v8.428h19.964v18.61h9.04v-18.61h20.34v-8.428h-20.34v-18.961Zm0,133.908h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962Zm-9.04,267.817h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962Zm9.04-133.908h-9.04v18.961h-19.964v8.428h19.964v18.609h9.04v-18.609h20.34v-8.428h-20.34v-18.961Zm-9.04,401.725h9.04v18.961h20.34v8.431h-20.34v18.61h-9.04v-18.61h-19.964v-8.431h19.964v-18.961Zm9.04-133.909h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962Zm95.034-535.633h9.04v18.961h20.34v8.428h-20.34v18.61h-9.04v-18.61h-19.964v-8.428h19.964v-18.961Zm0,133.908h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962Zm9.04,267.817h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962Zm-9.04-133.908h9.04v18.961h20.34v8.428h-20.34v18.609h-9.04v-18.609h-19.964v-8.428h19.964v-18.961Zm9.04,401.725h-9.04v18.961h-19.964v8.431h19.964v18.61h9.04v-18.61h20.34v-8.431h-20.34v-18.961Zm-9.04-133.909h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962ZM654.04,309.696h-9.04v18.961h-19.964v8.428h19.964v18.61h9.04v-18.61h20.34v-8.428h-20.34v-18.961Zm0,133.908h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962ZM645,711.421h9.04v18.962h20.34v8.427h-20.34v18.61h-9.04v-18.61h-19.964v-8.427h19.964v-18.962Zm9.04-133.908h-9.04v18.961h-19.964v8.428h19.964v18.609h9.04v-18.609h20.34v-8.428h-20.34v-18.961ZM645,979.238h9.04v18.961h20.34v8.431h-20.34v18.61h-9.04v-18.61h-19.964v-8.431h19.964v-18.961Zm9.04-133.909h-9.04v18.962h-19.964v8.427h19.964v18.61h9.04v-18.61h20.34v-8.427h-20.34v-18.962Z"
         transform="translate(-837.487005 0)"
         opacity="0"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         fill="#00d59f"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       />
       <g>
         <rect
@@ -164,8 +164,8 @@ const SvgComponent = () => (
         xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 20 700 1672"
         preserveAspectRatio="xMidYMid meet"
-        shape-rendering="geometricPrecision"
-        text-rendering="geometricPrecision"
+        shapeRendering="geometricPrecision"
+        textRendering="geometricPrecision"
         fill="none"
       >
         <path fill="url(#a)" d="M348.09 763.574h82.734v82.734H348.09z" />
