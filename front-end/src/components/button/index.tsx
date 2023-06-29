@@ -2,7 +2,7 @@ import { Container } from './styles'
 import { Dispatch, SetStateAction } from 'react'
 interface PropsButton {
   text: string
-  types: 'primary' | 'secondary' |'tertiary'
+  types: 'primary' | 'secondary' |'tertiary'| 'quartenary'
   index?: number
   setIsClicked?: Dispatch<SetStateAction<number | null>>
   isClicked?: null | number
