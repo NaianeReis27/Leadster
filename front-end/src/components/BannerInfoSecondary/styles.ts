@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const Container = styled.div`
-  ${tw` py-[45px] text-[25px] font-normal flex w-[600px] gap-[15px] flex-col `}
+  ${tw` py-[45px] px-[25px] text-[25px] font-normal flex w-[600px] gap-[15px] flex-col `}
   h2 {
     ${tw` text-[45px] font-medium`}
   }
@@ -21,8 +21,9 @@ export const Container = styled.div`
   }
 
   div {
+    ${tw`flex-wrap`}
     div {
-      ${tw` gap-[4px]`}
+      ${tw` gap-[4px] flex-wrap`}
       .text-secondary {
         ${tw`text-[14px] font-semibold`}
       }

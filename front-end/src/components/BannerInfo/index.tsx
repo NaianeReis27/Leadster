@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from 'react'
 import BannerInfoSecondary from '../BannerInfoSecondary'
 const BannerInfo = () => {
   const banner = useRef<HTMLDivElement>(null)
-  const delay = 300
   const [isAnimate, setAnimate] = useState<boolean>(false)
 
   useEffect(() => {

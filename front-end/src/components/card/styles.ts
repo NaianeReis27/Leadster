@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import tw from 'twin.macro'
 
 export const Container = styled.div`
-  ${tw` w-362 mx-auto cursor-pointer overflow-hidden rounded-2xl justify-center flex flex-col h-290 shadow-shadow-primary`}
+  ${tw` max-w-[362px] mx-auto cursor-pointer overflow-hidden rounded-2xl justify-center flex flex-col h-290 shadow-shadow-primary`}
   p {
     ${tw`font-bold  py-2 px-8`}
   }
