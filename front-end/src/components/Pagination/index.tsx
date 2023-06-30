@@ -19,7 +19,7 @@ const Pagination = () => {
       <label>Página</label>
       <div>
       {
-        pages.map((ele, index) => <Button action={()=>getVideos(index)} key={ele} isClicked={isClicked} setIsClicked={setIsClicked} index={index} text={ele.toString()} types='tertiary'></Button>)
+        pages.map((ele, index) => <Button action={()=> getVideos(index)} key={ele} isClicked={isClicked} setIsClicked={setIsClicked} index={index} text={ele.toString()} types='tertiary'></Button>)
       }
       </div>
       

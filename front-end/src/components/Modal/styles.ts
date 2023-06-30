@@ -5,7 +5,7 @@ export const Container = styled.div`
   ${tw`fixed top-0 left-0 w-full h-full bg-[rgba(0, 0, 0, 0.5)] flex items-center justify-center z-[99999999999]`}
 
   .modal-content {
-    ${tw`w-[600px] min-h-[700px] bg-white rounded-[18px]`}
+    ${tw`max-w-[600px] min-h-[600px] my-[30px] mx-[20px] bg-white rounded-[18px]`}
 
     .container-btn {
       ${tw`flex pt-[10px] pr-[10px]  justify-end`}
@@ -16,13 +16,13 @@ export const Container = styled.div`
     }
     .container-title {
       p {
-        ${tw`text-[20px] font-semibold mt-[-10px]`}
+        ${tw`text-[20px] mx-auto px-[25px] max-w-[400px] font-semibold mt-[-10px]`}
 
         strong {
           ${tw`text-blue-primary`}
         }
       }
-      ${tw`px-[130px] pb-[20px]`}
+      ${tw` pb-[20px]`}
     }
 
     iframe {
@@ -30,7 +30,7 @@ export const Container = styled.div`
     }
 
     .container-description {
-      ${tw`p-[25px]`}
+      ${tw`p-[25px] `}
 
       h3 {
         ${tw`text-[18px] my-[10px]`}

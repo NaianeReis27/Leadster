@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction, useContext, useEffect } from 'react'
+import React, { useContext} from 'react'
 import { Container, Overlay } from './styles'
 import { AiOutlineClose } from 'react-icons/ai';
 
@@ -19,7 +19,7 @@ const Modal = () => {
         <div className="modal-content">
           <div className="container-btn">
             <button onClick={handleChildClick}>
-              <AiOutlineClose></AiOutlineClose>
+              <AiOutlineClose/>
             </button>
           </div>
           <div className="container-title">
